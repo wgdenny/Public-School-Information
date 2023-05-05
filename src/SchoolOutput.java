@@ -10,11 +10,20 @@ public class SchoolOutput implements SchoolConstants
 
 
         ElementarySchool radfordElementary = new ElementarySchool();
-        radfordElementary.setEnrollment(492);
+        radfordElementary.setEnrollment(410);
         radfordElementary.describeLevel();
         System.out.println("The Principle is " + MCHARG_PRINCIPLE);
         System.out.println("Enrollment is " +
                 radfordElementary.getEnrollment());
+
+
+        ElementarySchool radford2Elementary = new ElementarySchool();
+        radford2Elementary.setEnrollment(492);
+        radford2Elementary.describeLevel2();
+        System.out.println("The Principle is " + BELLE_HEATH_PRINCIPLE);
+        System.out.println("Enrollment is " +
+                radford2Elementary.getEnrollment());
+
 
         IntermediateSchool radfordIntermediate = new IntermediateSchool();
         radfordIntermediate.setEnrollment(234);
